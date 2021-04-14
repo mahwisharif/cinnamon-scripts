@@ -1,0 +1,10 @@
+#!/bin/bash     
+
+janus_root=/home/ma843/Janus
+echo "Building janus tool........"
+cd $janus_root
+mkdir -p build
+cd build
+cmake ..
+make -j8
+
