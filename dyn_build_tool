@@ -1,8 +1,8 @@
 #!/bin/bash     
 
-dyn_root=/home/ma843/dyninst-10.1.0
+dyn_root=your-path-to/dyninst-10.1.0
 tool_src=$dyn_root/examples/MyDSLTool
-export DYNINST_ROOT=/home/ma843/dyninst-10.1.0/build
+export DYNINST_ROOT=your-path-to/dyninst-10.1.0/build
 cd $tool_src
 make clean
 make
